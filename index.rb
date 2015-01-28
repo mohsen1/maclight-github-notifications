@@ -18,7 +18,7 @@ while true
   if (MacLight.capslock() != status) then
 
     # Turn caps lock LEDs on if there is Github notifications
-    puts "turning #{on ? 'on' : 'off'} caps lock light"
+    puts "turning #{status ? 'on' : 'off'} caps lock light"
     MacLight.capslock(status)
   end
 
