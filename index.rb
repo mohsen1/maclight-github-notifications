@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require 'maclight'
 require 'net/http'
 require 'json'
