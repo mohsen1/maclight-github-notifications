@@ -9,7 +9,7 @@
 * Run the following command to run this process in background:
 
 ```shell
-nohup run.sh &
+nohup ruby index.rb &
 ```
 
 
