@@ -5,7 +5,7 @@
 ### How to use
 
 * Install maclight gem via `gem install maclight`
-* Replace `<<--YOUR TOKEN HERE-->` in [`index.rb`](./index.rb) with a Github API access token that has **notifications** scope.
+* Put your Github token in [`token.secret`](./token.secret). It should be a Github API access token that has **notifications** scope.
 * Run the following command to run this process in background:
 
 ```shell

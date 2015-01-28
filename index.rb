@@ -2,7 +2,7 @@ require 'maclight'
 require 'net/http'
 require 'json'
 
-token = '<<--YOUR TOKEN HERE-->'
+token = File.read('./token.secret')
 result = Net::HTTP.get(URI.parse("https://api.github.com/notifications?access_token=#{token}"))
 
 # Turn both LEDs on if there is Github notifications
