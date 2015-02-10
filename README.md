@@ -4,7 +4,7 @@
 
 ### How to use
 
-* Install maclight gem via **`gem install maclight`**
+* Install [maclight](https://github.com/busyloop/maclight) gem via **`gem install maclight`**
 * Put your Github token in [`token.secret`](./token.secret). It should be a Github API access token that has **notifications** scope.
 * Run the following command to run this process in background:
 
